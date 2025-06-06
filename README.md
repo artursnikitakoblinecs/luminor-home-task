@@ -34,7 +34,7 @@ Ensure the following are installed on your system:
 
 ## Generating Allure Report
 
-- Generate and View Allure Report (once tests have been executed at least once) using command
+- Generate and View Allure Report (once tests have been executed at least once) using Command Prompt command
     ```sh
-    ./gradlew allureServe
+    gradlew allureServe
     ```
