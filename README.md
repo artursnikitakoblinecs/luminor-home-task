@@ -13,18 +13,28 @@ Ensure the following are installed on your system:
 ### Installation
 
 1. Clone the repository
-2. Install dependencies
+    ```sh
+   git clone https://github.com/artursnikitakoblinecs/luminor-home-task.git
+    ```
+2. Navigate to the project directory
+    ```sh
+   cd luminor-home-task
+    ```
+3. Install dependencies
+    ```sh
+   gradle clean build
+    ```
 
 ## Running Tests
 
-Run tests using Gradle
-```sh
- gradle clean test
-```
+- Run tests using Gradle
+    ```sh
+   gradle clean test
+    ```
 
 ## Generating Allure Report
 
-Generate and View Allure Report (once tests have been executed at least once) using command
-```sh
- ./gradlew allureServe
-```
+- Generate and View Allure Report (once tests have been executed at least once) using command
+    ```sh
+    ./gradlew allureServe
+    ```
